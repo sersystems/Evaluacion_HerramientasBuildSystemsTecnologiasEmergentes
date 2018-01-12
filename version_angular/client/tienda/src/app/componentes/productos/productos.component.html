@@ -1,0 +1,36 @@
+<section class="CBody">
+ 	<div class="pl-3 pb-3 pr-3">
+	
+	<!-- Inserta el Header en la pagina -->
+	<app-header></app-header>
+ 		
+ 		<div class="card bg-white mt-3">
+  		
+			<!-- Cabecera del Panel -->
+  		<div class="card-header bg-white">
+  			<div class="row">
+  				<div class="col-12 col-md-9 text-left pt-4">
+  					<h1 class="font-weight-bold mt-2 ">Catálogo de Productos</h1>
+  				</div>
+  				<div class="col-12 col-md-3 justify-content-end">
+				    <form class="form my-2 my-md-4">
+				    		<h5>¿Qué estás buscando?</h5>
+				      	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				    </form>
+  				</div>
+  			</div>
+ 			</div><!-- Header body -->
+
+			<!-- Contenido del Panel -->
+  		<div class="card-body divider">
+  			
+<router-outlet></router-outlet>
+
+
+
+
+
+  			</div><!-- Card body -->
+		</div>
+	</div>
+</section>

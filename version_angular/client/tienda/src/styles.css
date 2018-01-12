@@ -1,0 +1,28 @@
+.CFooter{
+	height: 2rem;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	color: white;	
+}
+
+.CLogin{
+  width: 100%;
+  height: 100%;
+  z-index: 0%;  position: fixed;
+  background-image: url('./assets/img/login-fondo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.CBody{
+  width: 100%;
+  height: 100%;
+  z-index: 0%;  position: fixed;
+  background-image: url('./assets/img/main-fondo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
