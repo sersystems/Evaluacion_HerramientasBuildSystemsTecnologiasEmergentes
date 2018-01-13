@@ -4,6 +4,13 @@
 		this.configurar = function(app) {
 
 
+			// ******************* Metodo de Login ******************* //
+			//Metodo que envia los datos del login
+			app.post('/login/', function(solicitud, respuesta) {
+				db.iniciarSesion(solicitud.body, respuesta);
+			})
+
+
 			// ***************** Metodos de Usuarios ***************** //
 			//Metodo que obtiene todos los productos
 			app.get('/usuarios/', function(solicitud, respuesta) {

@@ -19,6 +19,9 @@
 	npm i -S express
 	npm i -S body-parser	(Analiza los cuerpos de solicitud entrantes en un middleware antes de sus manejadores, disponible bajo la propiedad req.body.)
 	npm i -S mysql		(Este es un controlador node.js para mysql. Está escrito en JavaScript, no requiere compilación y tiene una licencia 100% MIT.)
+	npm i -S express-jwt	(Este módulo le permite autenticar solicitudes HTTP usando tokens JWT en sus aplicaciones Node.js. Los JWT generalmente se usan para proteger los puntos finales API, y a menudo se emiten mediante OpenID Connect.)
+	npm i -S jsonwebtoken	(Esto fue desarrollado contra draft-ietf-oauth-json-web-token-08. Hace uso de node-jws)
+	npm i -S cors		(CORS es un paquete node.js para proporcionar un middleware Connect / Express que se puede usar para habilitar)
 	npm i -D nodemon 	(nodemon observará los archivos en el directorio en el que se inició nodemon, y si los archivos cambian, nodemon reiniciará automáticamente su aplicación de nodo.)
 7.- Abrir el archivo package.json y agregar la siguiente linea al campo "scripts"
 	"start": "nodemon index.js",

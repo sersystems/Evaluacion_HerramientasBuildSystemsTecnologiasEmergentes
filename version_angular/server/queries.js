@@ -1,7 +1,33 @@
-	var conexion = require('./connection');
+	var jwt = require('jsonwebtoken'),
+		conexion = require('./connection');
 
 	function EjecutarDB() {
 		
+
+		// ******************************* Funciones de Sesión ******************************* //
+		//Función que valida el inicio de sesión
+		this.iniciarSesion = function(datos, respuesta) {
+			conexion.establecer(function(err, cnx) {
+				cnx.query('SELECT * FROM usuarios WHERE email=? AND clave=?', [datos.email, datos.clave], function(error, resultado) {
+					cnx.release();
+					if (error) {
+						respuesta.send('E-000: Error al intentar iniciar sesión')
+					} else {
+						if (resultado.length == 0) {
+							console.log('Email No encontrado');
+							respuesta.send('Email No encontrado');	
+						} else {
+							var token = jwt.sign({
+								user: datos.usuario,
+								rol: 'admin'
+							}, 'EstaEsMiClaveSecreta_123456_SergioRegaladoAlessi', {expiresIn: '600s'});
+							respuesta.send(token);
+						}
+					}
+				});
+			})
+		}
+
 
 		// ***************************** Funciones de Productos ***************************** //
 		//Función que obtiene todos los productos
