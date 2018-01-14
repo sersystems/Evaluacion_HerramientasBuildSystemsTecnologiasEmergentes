@@ -1,6 +1,7 @@
 Instrucciones para correr Sistema:
 **********************************
 
+
 1.- Instalar XAMPP y configurar servidor con usuario “root” sin clave. Seguidamente ejecutar los servicios  del Xampp.
 
 2.-Abrir PHPmyAdmin e importar la base de datos que está dentro de la carpeta “server” (nextu_tienda.sql) 
@@ -23,3 +24,5 @@ Instrucciones para correr Sistema:
 6.- Acceso al sistema:
 	Usuario: serdigital@live.com.ar
 	Clave: 123456
+
+	Importante: Se debe estar conectado a internet para importar los estilos de boostrap 4

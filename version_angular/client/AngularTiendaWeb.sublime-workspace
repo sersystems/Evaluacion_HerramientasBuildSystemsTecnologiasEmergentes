@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ca",
+				"catalogoFiltrado\tproperty"
+			],
+			[
 				"ty",
 				"typeof\tkeyword"
 			],
@@ -335,15 +339,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "tienda/src/app/componentes/login/login.component.html",
-			"settings":
-			{
-				"buffer_size": 1574,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -381,36 +376,41 @@
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes",
+		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/carrito",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/login",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/productos",
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/productos-detalle",
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/modelos",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/servicios",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/environments"
 	],
 	"file_history":
 	[
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/productos-detalle/productos-detalle.component.ts",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/carrito/carrito.component.ts",
+		"/C/Proyectos Angular/Otros/Proyecto-Final-Programador-WEB-master/Proyecto-Final-Programador-WEB-master/tienda/src/app/Producto.ts",
+		"/C/Proyectos Angular/Otros/TiendaOnlineAngularVersion-master/TiendaOnlineAngularVersion-master/src/app/tienda-data.service.ts",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/productos/productos.component.ts",
+		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/components/carrito/carrito.component.ts",
+		"/C/Proyectos Angular/Otros/TiendaOnlineAngularVersion-master/TiendaOnlineAngularVersion-master/src/app/catalogo/catalogo.component.ts",
+		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/servicios/productos.service.ts",
+		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/components/tienda/tienda.component.ts",
+		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/services/tienda.service.ts",
+		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/services/carrito.service.ts",
+		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/login/login.component.html",
+		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/servicios/auth.service.ts",
+		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/productos-detalle/productos-detalle.component.ts",
 		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/components/barra-superior/barra-superior.component.ts",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/header/header.component.ts",
 		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/services/auth.service.ts",
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/servicios/auth.service.ts",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/login/login.component.ts",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DIa0.144/inventario-detalle.component.ts",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DIa0.025/inventario.component.ts",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DIa0.398/inventario.ts",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DIa0.797/inventario.validators.ts",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/servicios/carrito.service.ts",
-		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/components/tienda/tienda.component.ts",
 		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/components/login/login.component.ts",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/styles.css",
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/login/login.component.html",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DRa0.028/inventario-master/src/app/login/login.component.html",
 		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/components/login/login.component.html",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DRa0.140/inventario-master/src/app/login/login.component.ts",
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/servicios/productos.service.ts",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DRa0.935/inventario-master/src/app/login/login.component.html",
 		"/C/Proyectos_NodeJS/tienda/version_angular/server/index.js",
 		"/C/xampp/htdocs/ProyectosWEB/SitioWeb/css/estilo.css",
@@ -420,7 +420,6 @@
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DIa0.919/inventario.service.ts",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/modelos/usuarios.ts",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DIa0.317/inventario.service.ts",
-		"/C/Proyectos Angular/Otros/Tienda_Angular2_ReactJS-master (1)/Tienda_Angular2_ReactJS-master/TiendaAngular2/src/app/components/carrito/carrito.component.ts",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DIa0.263/inventario.service.ts",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/carrito/carrito.component.html",
 		"/C/Users/SERGIO/AppData/Local/Temp/Rar$DIa0.777/inventario.service.ts",
@@ -512,16 +511,11 @@
 		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/styles.css",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/app.component.ts",
 		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/app/app.component.ts",
-		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/app/app.component.html",
-		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/app/app.module.ts",
-		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/app/app.routes.ts",
-		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/app/componentes/login/login.component.html",
-		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/app/componentes/header/header.component.html",
-		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/app/componentes/footer/footer.component.html"
+		"/C/Proyecto_Tienda/Evaluacion/version_angular/tienda/src/app/app.component.html"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -535,6 +529,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"listaProductos",
+			"get",
+			"getp",
 			"veri",
 			"{\n",
 			"sessio",
@@ -659,10 +656,7 @@
 			"ó",
 			"í",
 			"é",
-			"á",
-			"ñ",
-			"ú",
-			"ó"
+			"á"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -670,6 +664,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"catalogo",
 			"Evento",
 			"evento",
 			"Usuario",
@@ -709,43 +704,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "tienda/src/app/componentes/login/login.component.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1210,
-								1210
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -800,7 +760,7 @@
 	"project": "AngularTiendaWeb.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
