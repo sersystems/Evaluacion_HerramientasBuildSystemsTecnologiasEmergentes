@@ -13,8 +13,8 @@
 		    	<div class="col-12 offset-md-4 col-md-4 mb-2">
 		      		<label class="text-white" for="clave">Clave</label>
 		      		<input type="password" class="form-control" id="clave" formControlName="clave">
-        			<div *ngIf="formularioDeSesion.controls.email.errors && formularioDeSesion.controls.email.touched">
-        			<span class="CNotificacion">Ingrese una clave válida</span>
+        			<div *ngIf="formularioDeSesion.controls.clave.errors && formularioDeSesion.controls.clave.touched">
+        				<span class="CNotificacion">Ingrese una clave válida</span>
         			</div>
 		    	</div>
 		  	</div>

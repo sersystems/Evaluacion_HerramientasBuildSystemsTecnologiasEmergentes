@@ -1,9 +1,9 @@
-import { Injectable } 		from '@angular/core';
-import { Http, Response } 	from '@angular/http';
-import { Router } 			from '@angular/router';
+import { Injectable } 			from '@angular/core';
+import { Http, Response } 		from '@angular/http';
+import { Router } 				from '@angular/router';
 
-import { Usuarios }     	from '../modelos/usuarios';
-import { Observable }     	from 'rxjs/Observable';
+import { Usuarios }     		from '../modelos/usuarios';
+import { Observable }			from 'rxjs/Observable';
 
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
@@ -32,6 +32,7 @@ export class AuthService {
 	logout(){
 		sessionStorage.removeItem('session');
     	sessionStorage.removeItem('carrito');
+		window.location.reload();
 		this.router.navigate(['login'])
 	}
 

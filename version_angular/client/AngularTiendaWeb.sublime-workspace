@@ -335,6 +335,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "tienda/src/app/componentes/login/login.component.html",
+			"settings":
+			{
+				"buffer_size": 1574,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -372,9 +381,6 @@
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes",
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/carrito",
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/footer",
-		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/header",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/login",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/productos",
 		"/C/Proyectos_NodeJS/tienda/version_angular/client/tienda/src/app/componentes/productos-detalle",
@@ -515,7 +521,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -703,8 +709,43 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "tienda/src/app/componentes/login/login.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1210,
+								1210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -61,20 +61,22 @@ export class CarritoComponent implements OnInit {
             if ( itemCatalogo.id == itemCarrito.id ){
               let cantidad = Number(itemCarrito.cantidad);
               itemCatalogo.disponibilidad = itemCatalogo.disponibilidad-cantidad;
-              this.productosService.putProductos(itemCatalogo).subscribe();
+              this.productosService.putProductos(itemCatalogo)
+                .subscribe((response) => {
+                  this.vaciarCarrito();
+                })
             }
           }
         }
-        this.vaciarCarrito();
         this.router.navigate(['/productos']);
       })
   }
 
   vaciarCarrito(){
     sessionStorage.setItem('carrito', '[]')
+    this.catalogo = [];
     this.listaCarrito = [];
-    this.carritoService.listaCarrito = [];
-    this.productosService.getProductos().subscribe();
+    this.productosService.getProductos();
   }
   
   private manejadorDeErrores (error: Response | any) {
