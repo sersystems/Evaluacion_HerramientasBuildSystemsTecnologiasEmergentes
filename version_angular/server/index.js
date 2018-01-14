@@ -10,7 +10,7 @@
 	app.use(bodyParser.json());
 	app.use(bodyParser.urlencoded({extended: true}));
 	app.use(cors());
-	app.use(expressJWT({secret: 'EstaEsMiClaveSecreta_123456_SergioRegaladoAlessi'}).unless({path: ['/login']}));
+	//app.use(expressJWT({secret: 'EstaEsMiClaveSecreta_123456_SergioRegaladoAlessi'}).unless({path: ['/login']}));
 
 	var connection = require('./connection'),
 		routes = require('./routes')
